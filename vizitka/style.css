@@ -13,14 +13,11 @@
 }
 
 body {
-  font-family: system-ui, -apple-system, Roboto, Oxygen, Ubuntu, Cantarell,
-    "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: system-ui, -apple-system, Roboto, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 table {
   border-spacing: 5;
-  row-gap: 5rem;
-
   background-color: rgb(67, 157, 173);
   text-align: right;
 }
@@ -34,5 +31,4 @@ table {
   padding-left: 3rem;
   padding-bottom: 2rem;
   padding-right: 3rem;
-  row-gap: 1rem;
 }
