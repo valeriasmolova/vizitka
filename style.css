@@ -1,0 +1,43 @@
+.goldit {
+  color: gold;
+  font-style: italic;
+  border-bottom-color: gold;
+  border-bottom-style: dotted;
+  text-align: center;
+  font-weight: bolder;
+}
+.goldbig {
+  color: gold;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: x-large;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+.goldsmall {
+  color: gold;
+  font-weight: bolder;
+  font-style: oblique;
+  text-align: left;
+  vertical-align: top;
+}
+
+body {
+  font-family: system-ui, -apple-system, Roboto, Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+table {
+  padding-top: 2rem;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+  padding-right: 3rem;
+
+  border-spacing: 0.4rem;
+  row-gap: 1rem;
+  column-gap: 3rem;
+
+  background-color: rgb(53, 158, 177);
+  text-align: right;
+}
